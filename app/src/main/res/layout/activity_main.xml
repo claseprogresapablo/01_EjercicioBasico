@@ -8,12 +8,15 @@
 
     <EditText
         android:id="@+id/txtNombreMain"
-        android:layout_width="210dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
         android:ems="10"
+        android:hint="Escribe tu nombre"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,6 +45,10 @@
         android:layout_width="326dp"
         android:layout_height="133dp"
         android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
